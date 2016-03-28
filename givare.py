@@ -6,7 +6,7 @@ import time
 
 
 while 1:
-	filename = "/opt/skript/system/system.txt"
+	filename = "/opt/skript/system/texten.txt"
 	file = open(filename, "r")
 	lines = file.read().splitlines()
 	file.close()
